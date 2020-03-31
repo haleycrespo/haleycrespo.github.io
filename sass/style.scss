@@ -509,6 +509,14 @@ section {
         width: 59px;
     }
 
+    #restarttext {
+        position: absolute;
+        z-index: 200;
+        bottom: 8rem;
+        left: 52%;
+        transform: translateX(-48%);
+    }
+
     #endtext { 
         position: absolute;
         z-index: 300;
