@@ -215,22 +215,41 @@ section {
 
     #man1 {
         position: absolute;
-        bottom: 0rem;
-        right: 60rem;
+        bottom: 0;
+        left: 0rem;
+        @media (min-width: 960px) {
+            left: 3rem;
+        }
+        @media (min-width: 1400px) {
+            left: 5rem;
+        }
+        @media (min-width: 1600px) {
+            left: 6rem;
+        }
 
     }
 
     #man2 {
         position: absolute;
         bottom: 0rem;
-        right: 35rem;
+        left: 33%;
+        transform: translateX(-67%);
         z-index: 2;
     }
 
     #man3 {
         position: absolute;
         bottom: 0rem;
-        right: 18rem;
+        right: 0rem;
+        @media (min-width: 960px) {
+            right: 3rem;
+        }
+        @media (min-width: 1400px) {
+            right: 11rem;
+        }
+        @media (min-width: 1600px) {
+            right: 7rem;
+        }
     }
 
     #neat1 {
@@ -434,7 +453,8 @@ section {
     #easycar {
         position: absolute;
         z-index: 2;
-        left: 37rem;
+        left: 42%;
+        transform: translateX(-58%);
         width: 9%;
         top: 30rem;
 
