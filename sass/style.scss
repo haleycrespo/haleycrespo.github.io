@@ -540,7 +540,8 @@ section {
     #endtext { 
         position: absolute;
         z-index: 300;
-        top: 17rem;
+        top: 50%;
+        transform: translateY(-50%);
         left: .2rem;
     }
 }
