@@ -312,7 +312,7 @@ section {
         position: absolute;
         top: 13rem;
         right: 35rem;
-        width: 75%
+        width: 80%
     }
 
     #tequilla1{
@@ -351,7 +351,9 @@ section {
     #deboraNGGYU {
         position: absolute;
         bottom: 0rem;
-        right: 35rem;
+        width: 350px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     #jonham {
@@ -424,7 +426,9 @@ section {
         z-index: 1;
         width: 27%;
         top: 0;
-        left: 28.5rem;
+        position: absolute;
+        left: 47%;
+        transform: translateX(-53%);
     }
 
     #easycar {
@@ -495,8 +499,10 @@ section {
     #restartbutton { 
         position: absolute;
         width: 55px;
-        left: 36rem;
         bottom: 6.5rem;
+        position: absolute;
+        left: 43%;
+        transform: translateX(-57%);
     }
 
     #restartbutton:hover { 
